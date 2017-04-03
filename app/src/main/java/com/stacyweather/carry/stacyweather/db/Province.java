@@ -3,18 +3,12 @@ package com.stacyweather.carry.stacyweather.db;
 import org.litepal.crud.DataSupport;
 
 /**
- * @author Administrator
- * @time 2017/3/29 22:33
- * @des ${TODO}
- * @updateAuthor $Author$
- * @updateDate $Date$
- * @updateDes ${TODO}
  *
  */
 public class Province extends DataSupport {
     private int id;
-    private String provinceNaeme;
-    private int rovinceCode;
+    private String provinceName;
+    private int provinceInt;
     public int getId() {
         return id;
     }
@@ -23,20 +17,20 @@ public class Province extends DataSupport {
         this.id = id;
     }
 
-    public String getProvinceNaeme() {
-        return provinceNaeme;
+    public String getprovinceName() {
+        return provinceName;
     }
 
-    public void setProvinceNaeme(String provinceNaeme) {
-        this.provinceNaeme = provinceNaeme;
+    public void setprovinceName(String provinceName) {
+        this.provinceName = provinceName;
     }
 
-    public int getRovinceCode() {
-        return rovinceCode;
+    public int getprovinceInt() {
+        return provinceInt;
     }
 
-    public void setRovinceCode(int rovinceCode) {
-        this.rovinceCode = rovinceCode;
+    public void setprovinceInt(int provinceInt) {
+        this.provinceInt = provinceInt;
     }
 
 
